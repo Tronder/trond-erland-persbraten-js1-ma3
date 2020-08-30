@@ -1,0 +1,38 @@
+/* styles for module assignment  3 - question 2*/
+
+h1 {
+  margin: 20px 0 0 20px;
+}
+
+h2 {
+  font-size: 1.2em;
+  text-align: center;
+}
+p {
+  margin-left: 5px;
+}
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.result {
+  border: 1px solid black;
+  margin: 2%;
+  width: 45%;
+}
+
+.loading {
+  font-size: 2em;
+  animation: effect 2s infinite;
+  text-align: center;
+}
+
+@keyframes effect {
+  0% {
+    color: black;
+  }
+  50% {
+    color: red;
+  }
+}
